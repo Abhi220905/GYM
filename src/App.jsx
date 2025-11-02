@@ -10,6 +10,7 @@ import Classes from "./pages/Classes";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
 import Join from "./pages/Join";
+import Error from "./pages/Error.jsx";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/news" element={<News />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/join" element={<Join />}></Route>
+        <Route path="*" element={<Error />}></Route>
       </Routes>
     </>
   );

@@ -630,9 +630,6 @@ body {
 }
 
 .bmi-img {
-  background-image: url("img/bmi-bg.jpg");
-  background-size: cover;
-  background-position: center;
   height: 100%;
   min-height: 500px;
 }
@@ -723,7 +720,6 @@ body {
 /*---------------------- Footer ----------------------------*/
 .footer-section {
   position: relative;
-  background: url("img/footer-bg.jpg") center center/cover no-repeat;
   color: #fff;
   padding: 80px 0 40px;
 }
@@ -845,7 +841,6 @@ body {
 /*----------------------------- About header ----------------------------*/
 
 .about-section {
-  background: url("img/about-hero.jpg") center center / cover no-repeat;
   padding: 120px 0;
   display: flex;
   align-items: center;
@@ -957,7 +952,6 @@ body {
 /*---------------------------- Classes Head ----------------------------*/
 
 .classes-section {
-  background: url("img/classes-head.jpg") center center / cover no-repeat;
   padding: 120px 0;
   display: flex;
   align-items: center;
@@ -1066,7 +1060,6 @@ body {
 /* --------------------------------------------------------News Head --------------------------------------------------------*/
 
 .news-section {
-  background: url("img/news-head.jpg") center center / cover no-repeat;
   padding: 120px 0;
   display: flex;
   align-items: center;
@@ -1203,7 +1196,6 @@ body {
 /* ----------------------------Contact Head ----------------------------*/
 
 .contact-section {
-  background: url("img/join.jpg") center center / cover no-repeat;
   padding: 120px 0;
   display: flex;
   align-items: center;
@@ -1402,8 +1394,6 @@ button:hover {
 
 /* ----------------------------Join Head Section ----------------------------*/
 .join-section {
-  background: url("img/contact-head.jpg") center center / cover no-repeat;
-  /* backgroundColor: "rgba(0, 0, 0, 0.6)", */
   padding: 120px 0;
   display: flex;
   align-items: center;

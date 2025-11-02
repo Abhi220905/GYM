@@ -32,11 +32,12 @@ const Bmi = () => {
 
   return (
     <>
-      <div className="bmi-section">
+      <div className="bmi-section" >
         <div className="container-fluid">
           <div className="row align-items-center">
             {/* Left Image */}
-            <div className="col-lg-6 bmi-img d-none d-lg-block"></div>
+            <div className="col-lg-6 bmi-img d-none d-lg-block" style={{  background: "url('img/bmi-bg.jpg')", backgroundSize: "cover",
+        backgroundPosition: "center", backgroundRepeat:"no-repeat"}}></div>
 
             {/* Right Content */}
             <div className="col-lg-6 col-md-12 text-center text-lg-start p-5">

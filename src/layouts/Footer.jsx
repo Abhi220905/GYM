@@ -13,7 +13,8 @@ import {
 const Footer = () => {
   return (
     <>
-      <footer className="footer-section ">
+      <footer className="footer-section " style={{  background: "url('img/footer-bg.jpg')", backgroundSize: "cover",
+        backgroundPosition: "center", backgroundRepeat:"no-repeat"}}>
         <div className="container">
           <div className="row gy-4">
             {/* Location */}
