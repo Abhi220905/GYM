@@ -9,6 +9,7 @@ import {
   FaTwitter,
   FaBasketballBall,
 } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -72,11 +73,11 @@ const Footer = () => {
               Copyright ©2025 All rights reserved by <span>Abhishek</span>
             </p>
             <ul className="footer-menu">
-              <a href="/" className="text-decoration-none text-white"><li>Home</li></a>
-              <a href="About" className="text-decoration-none text-white"><li>About Us</li></a>
-              <a href="Classes" className="text-decoration-none text-white"> <li>Classes</li></a>
-              <a href="News" className="text-decoration-none text-white"> <li>News</li></a>
-              <a href="Contact" className="text-decoration-none text-white"> <li>Contact</li></a>             
+              <NavLink to="/" className="text-decoration-none text-white"><li>Home</li></NavLink>
+              <NavLink to="About" className="text-decoration-none text-white"><li>About Us</li></NavLink>
+              <NavLink to="Classes" className="text-decoration-none text-white"> <li>Classes</li></NavLink>
+              <NavLink to="News" className="text-decoration-none text-white"> <li>News</li></NavLink>
+              <NavLink to="Contact" className="text-decoration-none text-white"> <li>Contact</li></NavLink>             
             </ul>
           </div>
         </div>
